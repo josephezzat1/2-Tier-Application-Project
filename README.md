@@ -6,4 +6,13 @@ Main.tf is the main part of the project and the source is linked to another repo
 ## Provider.tf
 conatains all the configuration need to download AWS configuration from HashiCorp
 
-#git push -u origin main
+## terraform.tfvars
+all the variables in the project is assigned in this file
+
+## variables.tf
+contains all the variables configuration
+
+## Run the code
+### 1) terraform init
+### 2) terraform plan
+### 3) terraform apply
